@@ -1,5 +1,43 @@
 body{
   text-align: center;
   background: ;
-  font-family: sans-serif;
+  font-family: 'Lobster', sans-serif;
+}
+
+.card {
+  border: 3px groove #99a3b2;
+  height: 400px;
+  width: 250px;
+  margin-bottom: 40px;
+  background: url("../img/flash.jpg") no-repeat center;
+  color: #ddd;
+  display: table;
+}
+
+.card span {
+  font-size: 40px;
+  text-shadow: -2px 2px #8e4040,
+               -2px -2px #8e4040,
+               2px -2px #8e4040,
+               2px 2px #8e4040;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.left-margin {
+  margin-left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.answer {
+  font-size: 20px;
+  text-shadow: -1px 1px #8e4040,
+               -1px -1px #8e4040,
+               1px -1px #8e4040,
+               1px 1px #8e4040;
+  display: table-cell;
+  vertical-align: middle;
 }
